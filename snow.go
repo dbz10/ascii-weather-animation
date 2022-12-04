@@ -22,8 +22,7 @@ func (p snowPlane) draw() {
 }
 
 func (p snowPlane) step() snowPlane {
-	// everything down one and to the left one.
-	// drop the bottom row and
+	// current rows down and/or to the side
 	// instantiate a new random row at the top
 
 	xShape := len(p[0])
